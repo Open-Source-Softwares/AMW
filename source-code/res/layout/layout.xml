@@ -2,26 +2,26 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/mainPage" android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical">
 
     <TextView android:id="@+id/appName" android:layout_width="match_parent" android:layout_height="match_parent" android:text="Marscoin Wallet"/>
-    <HorizontalLayout android:id="@+id/walletCurrentCoinsLayout" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <HorizontalLayout android:id="@+id/walletCurrentCoinsLayout" android:layout_width="match_parent">
         
         <TextView android:id="@+id/walletCurrentCoinsText" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="Total sent coins :"/>
         <TextView android:id="@+id/walletCurrentCoinsAmount" android:layout_height="wrap_content" android:layout_height="match_parent" android:text=""/>
 
     </HorizontalLayout>
-    <HorizontalLayout android:id="@+id/walletTotalReceivedCoinsLayout" android:layout_width="match_parent" android:layout_height="match_parent">
+    <HorizontalLayout android:id="@+id/walletTotalReceivedCoinsLayout" android:layout_width="match_parent">
         
         <TextView android:id="@+id/walletTotalReceivedCoinsText" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="Total received coins :"/>
         <TextView android:id="@+id/walletTotalReceivedCoinsAmount" android:layout_width="wrap_content" android:layout_height="match_parent" android:text=""/>
         
     </HorizontalLayout>
-    <HorizontalLayout android:id="@+id/walletTotalSentCoinsLayout">
+    <HorizontalLayout android:id="@+id/walletTotalSentCoinsLayout" android:layout_width="match_parent">
         
         <TextView android:id="@+id/walletTotalSentCoinsText" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="Total sent coins :"/>
         <TextView android:id="@+id/walletTotalSentCoinsAmount" android:layout_width="wrap_content" android:layout_height="match_parent" android:text=""/>
         
     </HorizontalLayout>
-    <TextView android:id="@+id/transactionsText" android:layout_width="match_parent" android:layout_height="match_parent" android:text="Transactions"/>
-    <LinearLayout android:id="@+id/transactionsList" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:id="@+id/transactionsText" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Transactions"/>
+    <LinearLayout android:id="@+id/transactionsList" android:layout_width="match_parent">
         
         
         
