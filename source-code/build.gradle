@@ -1,0 +1,13 @@
+android {
+
+    defaultConfig {
+
+        applicationId = "marscoin.android.wallet"
+
+        minSdkVersion(20)
+        maxSdkVersion(40)
+        targetSdkVersion(36)
+        
+    }
+    
+}
