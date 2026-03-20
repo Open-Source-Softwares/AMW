@@ -8,7 +8,7 @@ public class main extends Activity () {
     override fun onCreate(savedInstance : Bundle) {
 
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.main);
+        setContentView(R.layout.mainPage);
         
     };
     
