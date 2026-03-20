@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" xmlns="http://schemas.android.com/tools" package="marscoin.android.wallet">
+
+    <uses-permission android:name="android.permission.INTERNET" android:required="false"/>
+    
+    <application>
+
+        <activity android:name=".MainActivity"></activity>
+        
+    </application>
+    
+</manifest>
