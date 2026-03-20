@@ -3,7 +3,7 @@
 
     <uses-permission android:name="android.permission.INTERNET"/>
     
-    <application>
+    <application android:label="Marscoin Wallet">
 
         <activity android:name=".main"></activity>
         
