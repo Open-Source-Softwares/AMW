@@ -1,9 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/mainPage" android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical">
 
-    <TextView android:id="@+id/AppName" android:layout_width="match_parent" android:layout_height="match_parent" android:text="Marscoin Wallet"/>
-    <TextView android:id="@+id/TransactionsText" android:layout_width="match_parent" android:layout_height="match_parent" android:text="Transactions"/>
-    <LinearLayout android:id="@+id/TransactionsList" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:id="@+id/appName" android:layout_width="match_parent" android:layout_height="match_parent" android:text="Marscoin Wallet"/>
+    <HorizontalLayout android:id="@+id/walletCurrentCoinsLayout">
+        
+        <TextView android:id="@+id/walletCurrentCoins" android:layout_width="" android:layout_height="" android:text=""/>
+
+    </HorizontalLayout>
+    <HorizontalLayout>
+        
+        <TextView android:id="@+id/totalReceivedCoins"/>
+        
+    </HorizontalLayout>
+    <HorizontalLayout>
+        
+        <TextView android:id="@+id/totalSentCoins"/>
+        
+    </HorizontalLayout>
+    <TextView android:id="@+id/transactionsText" android:layout_width="match_parent" android:layout_height="match_parent" android:text="Transactions"/>
+    <LinearLayout android:id="@+id/transactionsList" android:layout_width="match_parent" android:layout_height="match_parent">
         
         
         
