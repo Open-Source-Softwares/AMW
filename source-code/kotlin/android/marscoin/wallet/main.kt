@@ -1,4 +1,4 @@
-package marscoin.android.wallet;
+package android.marscoin.wallet;
 
 import android.os.Build;
 import android.os.Bundle;
