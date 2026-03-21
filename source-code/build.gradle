@@ -2,7 +2,7 @@ android {
 
     defaultConfig {
 
-        applicationId = "marscoin.android.wallet"
+        applicationId = "android.marscoin.wallet"
 
         minSdkVersion(20)
         maxSdkVersion(40)
