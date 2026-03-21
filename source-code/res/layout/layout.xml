@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/mainPage" android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" tools:context=".main">
 
-    <HorizontalLayout android:id="@+id/appTopBar">
+    <HorizontalLayout android:id="@+id/appTopBarLayout">
         
-        <TextView android:id="@+id/appName" android:layout_width="match_parent" android:layout_height="match_parent" android:text="Marscoin Wallet"/>
+        <TextView android:id="@+id/appNameText" android:layout_width="match_parent" android:layout_height="match_parent" android:text="Marscoin Wallet"/>
         <ImageButton android:id="@+id/openMenuButton" android:src="@drawable/openMenuButton" />
         
     </HorizontalLayout>
@@ -26,7 +26,7 @@
         
     </HorizontalLayout>
     <TextView android:id="@+id/transactionsText" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Transactions"/>
-    <LinearLayout android:id="@+id/transactionsList" android:layout_width="match_parent">
+    <LinearLayout android:id="@+id/transactionsListLayout" android:layout_width="match_parent">
         
         
         
