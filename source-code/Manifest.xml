@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android" xmlns="http://schemas.android.com/tools" package="marscoin.android.wallet">
 
-    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.INTERNET" android:minSdkVersion="6" android:targetSdkVersion="36" android:maxSdkVersion="40" />
     
-    <application android:label="Marscoin Wallet">
+    <application android:label="Marscoin Wallet" android:allowTaskReparenting="true" android:allowBackup="true" android:allowClearUserData="true" android:appCategory="game" android:banner="@drawable/banner" android:enabled="true" android:hardwareAccelerated="true" android:hasCode="true" android:icon="@drawable/icon" android:logo="@drawable/logo" >
 
         <activity android:name=".main"></activity>
         
